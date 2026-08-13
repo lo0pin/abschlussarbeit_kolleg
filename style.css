@@ -212,10 +212,9 @@ h2 {
 
 
 /* About */
-
 .about {
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 220px minmax(0, 1fr);
     gap: 60px;
 
     padding: 70px 0;
@@ -224,28 +223,28 @@ h2 {
     border-bottom: 1px solid var(--border);
 }
 
-
-.about h3 {
+.about-label h3 {
     margin: 0;
 
     font-size: 1rem;
     font-weight: 650;
 }
 
+.about-content {
+    max-width: 700px;
+}
 
-.about p {
-    max-width: 650px;
+.about-content p {
     margin: 0 0 18px;
 
     color: #3d3d3d;
     font-size: 1.03rem;
+    line-height: 1.75;
 }
 
-
-.about p:last-child {
+.about-content p:last-child {
     margin-bottom: 0;
 }
-
 
 /* Footer */
 
@@ -262,7 +261,6 @@ footer {
 
 
 /* Mobile */
-
 @media (max-width: 650px) {
 
     .page {
@@ -282,6 +280,10 @@ footer {
         gap: 24px;
 
         padding: 50px 0;
+    }
+
+    .about-content {
+        max-width: 100%;
     }
 
     footer {
