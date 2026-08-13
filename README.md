@@ -19,3 +19,6 @@ hardware via the CAN bus.
 The project covered GUI architecture, CAN communication,
 data-rate calculations, validation and error handling,
 refactoring and packaging as a standalone application.
+
+
+All rights reserved.
