@@ -8,7 +8,7 @@
 
     <meta
         name="description"
-        content="Portfolio von Julian Kampitsch – Technik, Programmierung, Kommunikation, Geschichte und persönliche Projekte."
+        content="Portfolio von Julian Kampitsch – Elektronik, Programmierung, Kommunikation, Forschung und ausgewählte persönliche Projekte."
     >
 
     <link rel="stylesheet" href="style.css">
@@ -18,21 +18,15 @@
 
     <main class="page">
 
-        <!-- Header -->
-
         <header class="header">
 
-            <a
-                class="name"
-                href="https://lo0pin.github.io/web/index.html">
+            <a class="name" href="https://lo0pin.github.io/web/index.html">
                 Julian Kampitsch
             </a>
 
             <div class="header-right">
 
                 <nav class="main-nav" aria-label="Seitennavigation">
-
-
                     <a
                         class="active"
                         href="portfolio.html"
@@ -42,26 +36,10 @@
                     </a>
                 </nav>
 
-                <nav
-                    class="language-switch"
-                    aria-label="Sprache auswählen">
-
-                    <button
-                        class="lang-btn active"
-                        type="button"
-                        data-lang="de">
-                        DE
-                    </button>
-
+                <nav class="language-switch" aria-label="Sprache auswählen">
+                    <button class="lang-btn active" type="button" data-lang="de">DE</button>
                     <span>/</span>
-
-                    <button
-                        class="lang-btn"
-                        type="button"
-                        data-lang="en">
-                        EN
-                    </button>
-
+                    <button class="lang-btn" type="button" data-lang="en">EN</button>
                 </nav>
 
             </div>
@@ -69,36 +47,32 @@
         </header>
 
 
-        <!-- Hero -->
-
         <section class="portfolio-hero">
 
             <p
                 class="eyebrow"
-                data-de="Projekte · Arbeit · Interessen"
-                data-en="Projects · Work · Interests">
-                Projekte · Arbeit · Interessen
+                data-de="Technik · Kommunikation · Forschung · Praxis"
+                data-en="Engineering · Communication · Research · Practice">
+                Technik · Kommunikation · Forschung · Praxis
             </p>
 
-            <h1
-                data-de="Portfolio"
-                data-en="Portfolio">
-                Portfolio
-            </h1>
+            <h1 data-de="Portfolio" data-en="Portfolio">Portfolio</h1>
 
             <p
                 class="portfolio-intro"
-                data-de="Eine Auswahl aus technischen Projekten, Kommunikation, Forschung und Dingen, mit denen ich mich auch dann beschäftige, wenn niemand mich dafür bezahlt."
-                data-en="A selection of technical projects, communication, research and the things I pursue even when nobody is paying me to do so.">
-                Eine Auswahl aus technischen Projekten, Kommunikation,
-                Forschung und Dingen, mit denen ich mich auch dann
-                beschäftige, wenn niemand mich dafür bezahlt.
+                data-de="Mein Profil verbindet technische Entwicklung, präzise Kommunikation und historische Recherche. Die Auswahl ergänzt meinen Lebenslauf um Projekte und Interessen, die zeigen, wie ich arbeite: neugierig, systematisch, praktisch und mit Freude an ungewöhnlichen Schnittstellen."
+                data-en="My profile combines technical development, precise communication and historical research. This selection complements my CV with projects and interests that show how I work: curious, systematic, hands-on and drawn to unusual intersections.">
+                Mein Profil verbindet technische Entwicklung, präzise
+                Kommunikation und historische Recherche. Die Auswahl ergänzt
+                meinen Lebenslauf um Projekte und Interessen, die zeigen, wie
+                ich arbeite: neugierig, systematisch, praktisch und mit Freude
+                an ungewöhnlichen Schnittstellen.
             </p>
 
         </section>
 
 
-        <!-- Technik & Programmierung -->
+        <!-- 01 · Technik, Entwicklung & Programmierung -->
 
         <section class="portfolio-section">
 
@@ -108,16 +82,18 @@
 
                 <div>
                     <h2
-                        data-de="Technik & Programmierung"
-                        data-en="Engineering & Programming">
-                        Technik & Programmierung
+                        data-de="Technik, Entwicklung & Programmierung"
+                        data-en="Engineering, Development & Programming">
+                        Technik, Entwicklung & Programmierung
                     </h2>
 
                     <p
-                        data-de="Elektronik, Software und Systeme – von der Werkbank bis zum Bildschirm."
-                        data-en="Electronics, software and systems – from the workbench to the screen.">
-                        Elektronik, Software und Systeme – von der Werkbank
-                        bis zum Bildschirm.
+                        data-de="Von Schaltungsentwurf und Messtechnik über Embedded Software bis zum gebauten Prototyp: Technik interessiert mich dort am meisten, wo aus einer Idee ein überprüfbares System wird."
+                        data-en="From circuit design and measurement technology to embedded software and built prototypes: engineering interests me most where an idea becomes a testable system.">
+                        Von Schaltungsentwurf und Messtechnik über Embedded
+                        Software bis zum gebauten Prototyp: Technik interessiert
+                        mich dort am meisten, wo aus einer Idee ein überprüfbares
+                        System wird.
                     </p>
                 </div>
 
@@ -126,44 +102,49 @@
 
             <div class="portfolio-grid">
 
-                <!-- Elektronik -->
-
                 <article class="portfolio-card portfolio-card-large">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/electronics.jpg"
-                            alt="Elektronikprojekt"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/oszi.jpg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/oszi.jpg"
+                                alt="Oszilloskop bei der Analyse eines elektronischen Signals"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Elektronik"
-                            data-en="Electronics">
+                        <p class="portfolio-category" data-de="Elektronik" data-en="Electronics">
                             Elektronik
                         </p>
 
                         <h3
-                            data-de="Elektronische Projekte"
-                            data-en="Electronics Projects">
-                            Elektronische Projekte
+                            data-de="Elektronik & Embedded Systems"
+                            data-en="Electronics & Embedded Systems">
+                            Elektronik & Embedded Systems
                         </h3>
 
                         <p
-                            data-de="Aufbau, Entwicklung und Fehlersuche an elektronischen Schaltungen und eingebetteten Systemen – vom ersten Versuchsaufbau bis zur funktionierenden Anwendung."
-                            data-en="Building, developing and troubleshooting electronic circuits and embedded systems – from initial prototypes to working applications.">
-                            Aufbau, Entwicklung und Fehlersuche an elektronischen
-                            Schaltungen und eingebetteten Systemen – vom ersten
-                            Versuchsaufbau bis zur funktionierenden Anwendung.
+                            data-de="Schaltungen aufbauen, Mikrocontroller programmieren, Signale messen und Fehler systematisch eingrenzen – vom ersten Versuchsaufbau bis zur funktionierenden Anwendung."
+                            data-en="Building circuits, programming microcontrollers, measuring signals and systematically isolating faults – from the first bench prototype to a working application.">
+                            Schaltungen aufbauen, Mikrocontroller programmieren,
+                            Signale messen und Fehler systematisch eingrenzen –
+                            vom ersten Versuchsaufbau bis zur funktionierenden Anwendung.
                         </p>
 
                         <div class="portfolio-tags">
                             <span>Electronics</span>
                             <span>Embedded</span>
                             <span>Measurement</span>
+                            <span>Troubleshooting</span>
                         </div>
 
                     </div>
@@ -171,43 +152,140 @@
                 </article>
 
 
-                <!-- Programmieren -->
-
                 <article class="portfolio-card">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/programming.jpg"
-                            alt="Programmcode und Softwareprojekt"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/Selbstbau-Wordclock.jpg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/Selbstbau-Wordclock.jpg"
+                                alt="Selbst gebaute Wordclock mit leuchtender Buchstabenmatrix"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Software"
-                            data-en="Software">
-                            Software
+                        <p class="portfolio-category" data-de="Prototyping" data-en="Prototyping">
+                            Prototyping
                         </p>
 
-                        <h3
-                            data-de="Programmieren"
-                            data-en="Programming">
-                            Programmieren
+                        <h3 data-de="Selbstbau-Wordclock" data-en="Custom-built Word Clock">
+                            Selbstbau-Wordclock
                         </h3>
 
                         <p
-                            data-de="Eigene Anwendungen, Webprojekte und kleine Werkzeuge, die technische Probleme möglichst unkompliziert lösen sollen."
-                            data-en="Applications, web projects and small tools designed to solve technical problems as simply as possible.">
-                            Eigene Anwendungen, Webprojekte und kleine Werkzeuge,
-                            die technische Probleme möglichst unkompliziert lösen sollen.
+                            data-de="Ein eigenes Embedded-Projekt, in dem Hardware, Ansteuerung, Programmierung und Gehäuse zu einem alltagstauglichen Objekt zusammenfinden."
+                            data-en="A custom embedded project combining hardware, control logic, programming and enclosure design in a practical everyday object.">
+                            Ein eigenes Embedded-Projekt, in dem Hardware,
+                            Ansteuerung, Programmierung und Gehäuse zu einem
+                            alltagstauglichen Objekt zusammenfinden.
+                        </p>
+
+                        <div class="portfolio-tags">
+                            <span>Arduino</span>
+                            <span>LED Matrix</span>
+                            <span>Firmware</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="portfolio-card">
+
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/Autodesk Eagle.jpg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/Autodesk Eagle.jpg"
+                                alt="Leiterplattenlayout in Autodesk Eagle"
+                                loading="lazy">
+                        </figure>
+                    </a>
+
+                    <div class="portfolio-card-content">
+
+                        <p class="portfolio-category" data-de="Hardwareentwicklung" data-en="Hardware Development">
+                            Hardwareentwicklung
+                        </p>
+
+                        <h3 data-de="Schaltungs- & PCB-Design" data-en="Circuit & PCB Design">
+                            Schaltungs- & PCB-Design
+                        </h3>
+
+                        <p
+                            data-de="Vom Schaltplan zum Layout: Bauteile sinnvoll anordnen, Signalwege nachvollziehbar führen und Konstruktionen für Fertigung und Inbetriebnahme vorbereiten."
+                            data-en="From schematic to layout: arranging components sensibly, routing signals clearly and preparing designs for fabrication and commissioning.">
+                            Vom Schaltplan zum Layout: Bauteile sinnvoll anordnen,
+                            Signalwege nachvollziehbar führen und Konstruktionen
+                            für Fertigung und Inbetriebnahme vorbereiten.
+                        </p>
+
+                        <div class="portfolio-tags">
+                            <span>EAGLE</span>
+                            <span>Schematics</span>
+                            <span>PCB Layout</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="portfolio-card">
+
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/2026-08-bme280_01.png"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/2026-08-bme280_01.png"
+                                alt="Auswertung von Temperatur-, Luftdruck- und Luftfeuchtedaten eines BME280-Sensors"
+                                loading="lazy">
+                        </figure>
+                    </a>
+
+                    <div class="portfolio-card-content">
+
+                        <p class="portfolio-category" data-de="Software & Daten" data-en="Software & Data">
+                            Software & Daten
+                        </p>
+
+                        <h3 data-de="Sensorik & Datenanalyse" data-en="Sensors & Data Analysis">
+                            Sensorik & Datenanalyse
+                        </h3>
+
+                        <p
+                            data-de="Umweltdaten erfassen, plausibilisieren und visualisieren – einschließlich der aufschlussreichen Momente, in denen ein Sensor präzise das Falsche misst."
+                            data-en="Capturing, validating and visualising environmental data – including those instructive moments when a sensor measures the wrong thing with remarkable precision.">
+                            Umweltdaten erfassen, plausibilisieren und visualisieren –
+                            einschließlich der aufschlussreichen Momente, in denen
+                            ein Sensor präzise das Falsche misst.
                         </p>
 
                         <div class="portfolio-tags">
                             <span>Python</span>
-                            <span>Web</span>
-                            <span>Automation</span>
+                            <span>BME280</span>
+                            <span>Visualisation</span>
                         </div>
 
                     </div>
@@ -215,42 +293,140 @@
                 </article>
 
 
-                <!-- Drohne -->
-
                 <article class="portfolio-card">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/drone.jpg"
-                            alt="Drohnenflug"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/3dprint003.jpeg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/3dprint003.jpeg"
+                                alt="3D-Drucker bei der Fertigung eines eigenen Bauteils"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Technik & Luftfahrt"
-                            data-en="Technology & Aviation">
-                            Technik & Luftfahrt
+                        <p class="portfolio-category" data-de="Konstruktion" data-en="Design & Fabrication">
+                            Konstruktion
                         </p>
 
-                        <h3
-                            data-de="Drohnenfliegen"
-                            data-en="Drone Flying">
-                            Drohnenfliegen
+                        <h3 data-de="CAD & 3D-Druck" data-en="CAD & 3D Printing">
+                            CAD & 3D-Druck
                         </h3>
 
                         <p
-                            data-de="Technik, Navigation, Bildgestaltung und der nicht ganz unwichtige Respekt vor Luftraum und Wetter."
-                            data-en="Technology, navigation, visual composition and the rather important matter of respecting airspace and weather.">
-                            Technik, Navigation, Bildgestaltung und der nicht ganz
-                            unwichtige Respekt vor Luftraum und Wetter.
+                            data-de="Gehäuse und Funktionsteile konstruieren, fertigen, testen und iterativ verbessern – besonders dann, wenn ein Standardteil eben nicht passt."
+                            data-en="Designing, fabricating, testing and iterating enclosures and functional parts – especially when an off-the-shelf component simply does not fit.">
+                            Gehäuse und Funktionsteile konstruieren, fertigen,
+                            testen und iterativ verbessern – besonders dann,
+                            wenn ein Standardteil eben nicht passt.
                         </p>
 
                         <div class="portfolio-tags">
-                            <span>UAS</span>
-                            <span>Aerial Imaging</span>
+                            <span>CAD</span>
+                            <span>FDM</span>
+                            <span>Rapid Prototyping</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="portfolio-card">
+
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/meshnode001.jpeg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/meshnode001.jpeg"
+                                alt="Benutzeroberfläche eines selbst gebauten Funk- und Mesh-Netzwerkknotens"
+                                loading="lazy">
+                        </figure>
+                    </a>
+
+                    <div class="portfolio-card-content">
+
+                        <p class="portfolio-category" data-de="Vernetzte Systeme" data-en="Connected Systems">
+                            Vernetzte Systeme
+                        </p>
+
+                        <h3 data-de="Funk & Mesh-Netzwerke" data-en="Radio & Mesh Networks">
+                            Funk & Mesh-Netzwerke
+                        </h3>
+
+                        <p
+                            data-de="Dezentrale Kommunikation, Telemetrie und energieeffiziente Funkknoten verbinden Elektronik, Software und die Frage, wie Systeme auch ohne klassische Infrastruktur robust bleiben."
+                            data-en="Decentralised communication, telemetry and energy-efficient radio nodes combine electronics, software and the question of how systems remain robust without conventional infrastructure.">
+                            Dezentrale Kommunikation, Telemetrie und
+                            energieeffiziente Funkknoten verbinden Elektronik,
+                            Software und robuste Systeme ohne klassische Infrastruktur.
+                        </p>
+
+                        <div class="portfolio-tags">
+                            <span>LoRa</span>
+                            <span>Mesh</span>
+                            <span>Telemetry</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="portfolio-card">
+
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/solar601.jpeg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/solar601.jpeg"
+                                alt="Selbst gebauter Photovoltaik-Versuchsaufbau auf einem Balkon"
+                                loading="lazy">
+                        </figure>
+                    </a>
+
+                    <div class="portfolio-card-content">
+
+                        <p class="portfolio-category" data-de="Energie" data-en="Energy">
+                            Energie
+                        </p>
+
+                        <h3 data-de="Photovoltaik & Energiesysteme" data-en="Photovoltaics & Energy Systems">
+                            Photovoltaik & Energiesysteme
+                        </h3>
+
+                        <p
+                            data-de="Ein selbst gebauter Versuchsaufbau für solare Stromerzeugung, Speicherung und praktische Energieautarkie – mit mehr Werkbank als Hochglanzlabor."
+                            data-en="A self-built test setup for solar generation, storage and practical energy autonomy – with rather more workbench than polished laboratory.">
+                            Ein selbst gebauter Versuchsaufbau für solare
+                            Stromerzeugung, Speicherung und praktische
+                            Energieautarkie – mit mehr Werkbank als Hochglanzlabor.
+                        </p>
+
+                        <div class="portfolio-tags">
+                            <span>Photovoltaics</span>
+                            <span>Power</span>
+                            <span>DIY Engineering</span>
                         </div>
 
                     </div>
@@ -262,7 +438,7 @@
         </section>
 
 
-        <!-- Kommunikation, Sprache & Forschung -->
+        <!-- 02 · Kommunikation, Forschung & Medien -->
 
         <section class="portfolio-section">
 
@@ -272,17 +448,17 @@
 
                 <div>
                     <h2
-                        data-de="Kommunikation, Sprache & Forschung"
-                        data-en="Communication, Language & Research">
-                        Kommunikation, Sprache & Forschung
+                        data-de="Kommunikation, Forschung & Medien"
+                        data-en="Communication, Research & Media">
+                        Kommunikation, Forschung & Medien
                     </h2>
 
                     <p
-                        data-de="Zwischen präzisem Wortlaut, öffentlicher Kommunikation und der Neugier darauf, warum die Dinge geworden sind, wie sie sind."
-                        data-en="Between precise wording, public communication and curiosity about how things came to be the way they are.">
-                        Zwischen präzisem Wortlaut, öffentlicher Kommunikation
-                        und der Neugier darauf, warum die Dinge geworden sind,
-                        wie sie sind.
+                        data-de="Komplexe Inhalte erfassen, belastbar einordnen und so vermitteln, dass sie ihr Publikum erreichen – in Text, Gespräch, Bild und öffentlichem Auftritt."
+                        data-en="Understanding complex issues, placing them in a sound context and communicating them so they reach their audience – in writing, conversation, imagery and public appearances.">
+                        Komplexe Inhalte erfassen, belastbar einordnen und so
+                        vermitteln, dass sie ihr Publikum erreichen – in Text,
+                        Gespräch, Bild und öffentlichem Auftritt.
                     </p>
                 </div>
 
@@ -291,44 +467,49 @@
 
             <div class="portfolio-grid">
 
-                <!-- Presse -->
-
                 <article class="portfolio-card portfolio-card-large">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/press.jpg"
-                            alt="Pressekonferenz oder berufliche Besprechung"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/pressekonferenz2.png"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/pressekonferenz2.png"
+                                alt="Julian Kampitsch bei einem öffentlichen Auftritt mit Mikrofon"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Kommunikation"
-                            data-en="Communication">
+                        <p class="portfolio-category" data-de="Kommunikation" data-en="Communication">
                             Kommunikation
                         </p>
 
                         <h3
-                            data-de="Presse & öffentliche Kommunikation"
-                            data-en="Press & Public Communication">
-                            Presse & öffentliche Kommunikation
+                            data-de="Presse, Sprache & öffentliche Kommunikation"
+                            data-en="Press, Language & Public Communication">
+                            Presse, Sprache & öffentliche Kommunikation
                         </h3>
 
                         <p
-                            data-de="Pressearbeit bedeutet für mich, komplexe Inhalte schnell zu erfassen, auf das Wesentliche zu reduzieren und verständlich zu kommunizieren – auch dann, wenn die Lage etwas unübersichtlicher ist."
-                            data-en="For me, press work means understanding complex issues quickly, reducing them to what matters and communicating them clearly – particularly when circumstances are less than straightforward.">
-                            Pressearbeit bedeutet für mich, komplexe Inhalte schnell
-                            zu erfassen, auf das Wesentliche zu reduzieren und
-                            verständlich zu kommunizieren – auch dann, wenn die
-                            Lage etwas unübersichtlicher ist.
+                            data-de="Medienanfragen, Presseinformationen und öffentliche Auftritte verlangen sprachliche Präzision, rasche Auffassung und einen kühlen Kopf – gerade dann, wenn die Lage unübersichtlich wird."
+                            data-en="Media enquiries, press information and public appearances require linguistic precision, quick comprehension and a cool head – especially when circumstances become unclear.">
+                            Medienanfragen, Presseinformationen und öffentliche
+                            Auftritte verlangen sprachliche Präzision, rasche
+                            Auffassung und einen kühlen Kopf – gerade dann,
+                            wenn die Lage unübersichtlich wird.
                         </p>
 
                         <div class="portfolio-tags">
                             <span>Media Relations</span>
-                            <span>Public Relations</span>
+                            <span>Writing</span>
+                            <span>Public Speaking</span>
                             <span>Crisis Communication</span>
                         </div>
 
@@ -337,44 +518,46 @@
                 </article>
 
 
-                <!-- Sprache -->
-
                 <article class="portfolio-card">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/language.jpg"
-                            alt="Bücher und sprachwissenschaftliche Arbeit"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/history.jpeg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/history.jpeg"
+                                alt="Historische handschriftliche Quellen bei der Recherche"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Sprache"
-                            data-en="Language">
-                            Sprache
+                        <p class="portfolio-category" data-de="Forschung" data-en="Research">
+                            Forschung
                         </p>
 
-                        <h3
-                            data-de="Sprachaffinität"
-                            data-en="Language & Linguistics">
-                            Sprachaffinität
+                        <h3 data-de="Historische Recherche" data-en="Historical Research">
+                            Historische Recherche
                         </h3>
 
                         <p
-                            data-de="Sprache interessiert mich als Werkzeug ebenso wie als Gegenstand: Stil, Sprachgeschichte, Bedeutungswandel und die Frage, weshalb ein Satz funktioniert – oder eben nicht."
-                            data-en="Language interests me both as a tool and as an object of study: style, linguistic history, semantic change and the question of why a sentence works – or does not.">
-                            Sprache interessiert mich als Werkzeug ebenso wie als
-                            Gegenstand: Stil, Sprachgeschichte, Bedeutungswandel
-                            und die Frage, weshalb ein Satz funktioniert – oder eben nicht.
+                            data-de="Quellen finden, Widersprüche prüfen, Zusammenhänge rekonstruieren und aus verstreuten Spuren eine nachvollziehbare, belastbare Darstellung entwickeln."
+                            data-en="Finding sources, checking contradictions, reconstructing connections and developing a clear, defensible account from scattered traces.">
+                            Quellen finden, Widersprüche prüfen, Zusammenhänge
+                            rekonstruieren und aus verstreuten Spuren eine
+                            nachvollziehbare, belastbare Darstellung entwickeln.
                         </p>
 
                         <div class="portfolio-tags">
-                            <span>German</span>
-                            <span>Linguistics</span>
-                            <span>Writing</span>
+                            <span>Sources</span>
+                            <span>Context</span>
+                            <span>Critical Analysis</span>
                         </div>
 
                     </div>
@@ -382,44 +565,93 @@
                 </article>
 
 
-                <!-- Geschichte -->
-
                 <article class="portfolio-card">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/history.jpg"
-                            alt="Historische Recherche"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/videography01.jpeg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/videography01.jpeg"
+                                alt="Kameraobjektiv für Foto- und Videoproduktion"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Geschichte"
-                            data-en="History">
-                            Geschichte
+                        <p class="portfolio-category" data-de="Mediengestaltung" data-en="Media Production">
+                            Mediengestaltung
                         </p>
 
-                        <h3
-                            data-de="Geschichtsforschung"
-                            data-en="Historical Research">
-                            Geschichtsforschung
+                        <h3 data-de="Fotografie & Video" data-en="Photography & Video">
+                            Fotografie & Video
                         </h3>
 
                         <p
-                            data-de="Quellen suchen, Widersprüche auflösen, Zusammenhänge rekonstruieren und aus verstreuten Spuren eine belastbare Geschichte formen."
-                            data-en="Finding sources, resolving contradictions, reconstructing connections and turning scattered traces into a defensible historical account.">
-                            Quellen suchen, Widersprüche auflösen, Zusammenhänge
-                            rekonstruieren und aus verstreuten Spuren eine
-                            belastbare Geschichte formen.
+                            data-de="Bildgestaltung, Aufnahme und Schnitt als weitere Form präziser Kommunikation: Was im Bild bleibt, braucht ebenso viel Entscheidung wie das, was draußen bleibt."
+                            data-en="Composition, recording and editing as another form of precise communication: what stays in the frame requires as much judgement as what remains outside it.">
+                            Bildgestaltung, Aufnahme und Schnitt als weitere Form
+                            präziser Kommunikation: Was im Bild bleibt, braucht
+                            ebenso viel Entscheidung wie das, was draußen bleibt.
                         </p>
 
                         <div class="portfolio-tags">
-                            <span>Research</span>
-                            <span>Sources</span>
-                            <span>History</span>
+                            <span>Photography</span>
+                            <span>Video</span>
+                            <span>Editing</span>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="portfolio-card">
+
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/drohnenflug.JPG"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/drohnenflug.JPG"
+                                alt="Luftaufnahme eines Drohnenflugs"
+                                loading="lazy">
+                        </figure>
+                    </a>
+
+                    <div class="portfolio-card-content">
+
+                        <p class="portfolio-category" data-de="Luftbild" data-en="Aerial Imaging">
+                            Luftbild
+                        </p>
+
+                        <h3 data-de="Drohnenflug & Perspektive" data-en="Drone Flight & Perspective">
+                            Drohnenflug & Perspektive
+                        </h3>
+
+                        <p
+                            data-de="Flugtechnik, Navigation und Bildgestaltung aus ungewohnter Höhe – mit dem nötigen Respekt vor Wetter, Luftraum und Verantwortung."
+                            data-en="Flight technology, navigation and visual composition from an unusual height – with due respect for weather, airspace and responsibility.">
+                            Flugtechnik, Navigation und Bildgestaltung aus
+                            ungewohnter Höhe – mit dem nötigen Respekt vor Wetter,
+                            Luftraum und Verantwortung.
+                        </p>
+
+                        <div class="portfolio-tags">
+                            <span>UAS</span>
+                            <span>Aerial Imaging</span>
+                            <span>Navigation</span>
                         </div>
 
                     </div>
@@ -431,7 +663,7 @@
         </section>
 
 
-        <!-- Draußen & Praxis -->
+        <!-- 03 · Praxis, Natur & Bewegung -->
 
         <section class="portfolio-section">
 
@@ -441,16 +673,18 @@
 
                 <div>
                     <h2
-                        data-de="Draußen & Praxis"
-                        data-en="Outdoors & Practice">
-                        Draußen & Praxis
+                        data-de="Praxis, Natur & Bewegung"
+                        data-en="Practice, Nature & Movement">
+                        Praxis, Natur & Bewegung
                     </h2>
 
                     <p
-                        data-de="Manche Dinge versteht man besser, wenn Wind, Wasser, Erde oder ein Stück Technik mitreden."
-                        data-en="Some things are understood better when wind, water, soil or a piece of machinery has a say in the matter.">
-                        Manche Dinge versteht man besser, wenn Wind, Wasser,
-                        Erde oder ein Stück Technik mitreden.
+                        data-de="Persönliche Interessen, die Konzentration, Selbstständigkeit, Teamarbeit und den Blick für reale Bedingungen schärfen – dort, wo Wind, Wetter, Material oder Gelände mitentscheiden."
+                        data-en="Personal interests that sharpen concentration, independence, teamwork and an awareness of real-world conditions – where wind, weather, material or terrain have a say.">
+                        Persönliche Interessen, die Konzentration,
+                        Selbstständigkeit, Teamarbeit und den Blick für reale
+                        Bedingungen schärfen – dort, wo Wind, Wetter, Material
+                        oder Gelände mitentscheiden.
                     </p>
                 </div>
 
@@ -459,43 +693,47 @@
 
             <div class="portfolio-grid">
 
-                <!-- Segeln -->
-
                 <article class="portfolio-card portfolio-card-large">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/sailing.jpg"
-                            alt="Segelboot auf dem Wasser"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/Segeln_regatta.jpg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/Segeln_regatta.jpg"
+                                alt="Julian Kampitsch am Steuer während einer Segelregatta"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Segeln"
-                            data-en="Sailing">
-                            Segeln
+                        <p class="portfolio-category" data-de="Segelsport" data-en="Sailing">
+                            Segelsport
                         </p>
 
-                        <h3
-                            data-de="Segeln"
-                            data-en="Sailing">
-                            Segeln
+                        <h3 data-de="Segeln & Regatta" data-en="Sailing & Regattas">
+                            Segeln & Regatta
                         </h3>
 
                         <p
-                            data-de="Navigation, Wetter, Technik, Teamarbeit und die angenehme Einsicht, dass der Wind sich von Projektplänen nur mäßig beeindrucken lässt."
-                            data-en="Navigation, weather, engineering, teamwork and the useful reminder that the wind remains largely unimpressed by project plans.">
-                            Navigation, Wetter, Technik, Teamarbeit und die
-                            angenehme Einsicht, dass der Wind sich von
-                            Projektplänen nur mäßig beeindrucken lässt.
+                            data-de="Navigation, Wetter, Technik und Teamarbeit treffen auf Entscheidungen unter Zeitdruck. Der Wind hält sich bekanntlich nur mäßig an Projektpläne – gerade das macht Segeln lehrreich."
+                            data-en="Navigation, weather, engineering and teamwork meet decisions under time pressure. The wind is famously unimpressed by project plans – which is precisely what makes sailing instructive.">
+                            Navigation, Wetter, Technik und Teamarbeit treffen auf
+                            Entscheidungen unter Zeitdruck. Der Wind hält sich
+                            bekanntlich nur mäßig an Projektpläne – gerade das
+                            macht Segeln lehrreich.
                         </p>
 
                         <div class="portfolio-tags">
-                            <span>Sailing</span>
+                            <span>Teamwork</span>
                             <span>Navigation</span>
+                            <span>Tactics</span>
                             <span>Seamanship</span>
                         </div>
 
@@ -504,43 +742,46 @@
                 </article>
 
 
-                <!-- Regatta -->
-
                 <article class="portfolio-card">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/regatta.jpg"
-                            alt="Segelregatta"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/botanik.jpg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/botanik.jpg"
+                                alt="Dicht bepflanzter Balkongarten"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Segelsport"
-                            data-en="Sailing Sport">
-                            Segelsport
+                        <p class="portfolio-category" data-de="Botanik" data-en="Botany">
+                            Botanik
                         </p>
 
-                        <h3
-                            data-de="Regatta"
-                            data-en="Regatta Sailing">
-                            Regatta
+                        <h3 data-de="Balkongarten & Pflanzen" data-en="Balcony Garden & Plants">
+                            Balkongarten & Pflanzen
                         </h3>
 
                         <p
-                            data-de="Unter Zeitdruck funktionieren Entscheidungen plötzlich anders. Regattasegeln verbindet Taktik, Kommunikation, Konzentration und eine gewisse Freude am kontrollierten Chaos."
-                            data-en="Decisions change under time pressure. Regatta sailing combines tactics, communication, concentration and a certain appreciation for controlled chaos.">
-                            Unter Zeitdruck funktionieren Entscheidungen plötzlich
-                            anders. Regattasegeln verbindet Taktik, Kommunikation,
-                            Konzentration und eine gewisse Freude am kontrollierten Chaos.
+                            data-de="Auf begrenztem Raum möglichst viel gedeihen lassen: ein fortlaufendes Experiment mit Artenkenntnis, Licht, Wasser, Erde und jener Geduld, die sich nicht automatisieren lässt."
+                            data-en="Helping as much as possible thrive in limited space: an ongoing experiment in species knowledge, light, water, soil and the kind of patience that cannot be automated.">
+                            Auf begrenztem Raum möglichst viel gedeihen lassen:
+                            ein fortlaufendes Experiment mit Artenkenntnis, Licht,
+                            Wasser, Erde und jener Geduld, die sich nicht automatisieren lässt.
                         </p>
 
                         <div class="portfolio-tags">
-                            <span>Teamwork</span>
-                            <span>Tactics</span>
+                            <span>Botany</span>
+                            <span>Urban Gardening</span>
+                            <span>Observation</span>
                         </div>
 
                     </div>
@@ -548,117 +789,141 @@
                 </article>
 
 
-                <!-- Bogenschießen -->
-
                 <article class="portfolio-card">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/archery.jpg"
-                            alt="Bogenschießen"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/Bogenschießen.jpg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/Bogenschießen.jpg"
+                                alt="Bogenschütze im Gelände"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Sport"
-                            data-en="Sport">
-                            Sport
+                        <p class="portfolio-category" data-de="Konzentration" data-en="Concentration">
+                            Konzentration
                         </p>
 
-                        <h3
-                            data-de="Bogenschießen"
-                            data-en="Archery">
+                        <h3 data-de="Bogenschießen" data-en="Archery">
                             Bogenschießen
                         </h3>
 
                         <p
-                            data-de="Ein überraschend technischer Sport: reproduzierbare Abläufe, Konzentration, Körpergefühl und eine unmittelbare Rückmeldung darüber, ob Theorie und Praxis gerade derselben Meinung sind."
-                            data-en="A surprisingly technical sport: repeatable processes, concentration, body awareness and very immediate feedback on whether theory and practice currently agree.">
+                            data-de="Ein überraschend technischer Sport: reproduzierbare Abläufe, Körpergefühl und eine sehr unmittelbare Rückmeldung darüber, ob Theorie und Praxis derselben Meinung sind."
+                            data-en="A surprisingly technical sport: repeatable processes, body awareness and very immediate feedback on whether theory and practice currently agree.">
                             Ein überraschend technischer Sport: reproduzierbare
-                            Abläufe, Konzentration, Körpergefühl und unmittelbares
-                            Feedback darüber, ob Theorie und Praxis derselben Meinung sind.
+                            Abläufe, Körpergefühl und eine sehr unmittelbare
+                            Rückmeldung darüber, ob Theorie und Praxis derselben Meinung sind.
                         </p>
+
+                        <div class="portfolio-tags">
+                            <span>Focus</span>
+                            <span>Precision</span>
+                            <span>Routine</span>
+                        </div>
 
                     </div>
 
                 </article>
 
 
-                <!-- Garteln -->
-
                 <article class="portfolio-card">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/gardening.jpg"
-                            alt="Pflanzen und Gemüse auf einem Balkon"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/lost places erkunden.jpg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/lost places erkunden.jpg"
+                                alt="Erkundung eines verlassenen historischen Gebäudes"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Garteln"
-                            data-en="Urban Gardening">
-                            Garteln
+                        <p class="portfolio-category" data-de="Erkundung" data-en="Exploration">
+                            Erkundung
                         </p>
 
-                        <h3
-                            data-de="Balkongarten"
-                            data-en="Balcony Garden">
-                            Balkongarten
+                        <h3 data-de="Lost Places & Spurensuche" data-en="Lost Places & Traces">
+                            Lost Places & Spurensuche
                         </h3>
 
                         <p
-                            data-de="Auf begrenztem Raum möglichst viel wachsen lassen: Gemüse, Kräuter und Pflanzen – ein fortlaufendes Experiment mit Licht, Wasser, Erde und Geduld."
-                            data-en="Growing as much as possible in limited space: vegetables, herbs and plants – an ongoing experiment involving light, water, soil and patience.">
-                            Auf begrenztem Raum möglichst viel wachsen lassen:
-                            Gemüse, Kräuter und Pflanzen – ein fortlaufendes Experiment
-                            mit Licht, Wasser, Erde und Geduld.
+                            data-de="Verlassene Orte verbinden Geschichte, Architektur und Beobachtung: Räume lesen, Spuren deuten und Vergangenes respektvoll dokumentieren."
+                            data-en="Abandoned places bring together history, architecture and observation: reading spaces, interpreting traces and documenting the past with respect.">
+                            Verlassene Orte verbinden Geschichte, Architektur und
+                            Beobachtung: Räume lesen, Spuren deuten und Vergangenes
+                            respektvoll dokumentieren.
                         </p>
+
+                        <div class="portfolio-tags">
+                            <span>Exploration</span>
+                            <span>History</span>
+                            <span>Documentation</span>
+                        </div>
 
                     </div>
 
                 </article>
 
 
-                <!-- Motorrad -->
-
                 <article class="portfolio-card">
 
-                    <figure>
-                        <img
-                            src="assets/portfolio/motorcycle.jpg"
-                            alt="Motorrad auf einer Landstraße"
-                            loading="lazy">
-                    </figure>
+                    <a
+                        class="portfolio-image-link"
+                        href="assets/motobike.jpg"
+                        target="_blank"
+                        rel="noopener"
+                        title="Bild in voller Größe öffnen"
+                        data-de-title="Bild in voller Größe öffnen"
+                        data-en-title="Open full-size image">
+                        <figure>
+                            <img
+                                src="assets/motobike.jpg"
+                                alt="Detail eines Motorrads"
+                                loading="lazy">
+                        </figure>
+                    </a>
 
                     <div class="portfolio-card-content">
 
-                        <p
-                            class="portfolio-category"
-                            data-de="Motorrad"
-                            data-en="Motorcycling">
-                            Motorrad
+                        <p class="portfolio-category" data-de="Technik & Bewegung" data-en="Engineering & Movement">
+                            Technik & Bewegung
                         </p>
 
-                        <h3
-                            data-de="Motorradfahren"
-                            data-en="Motorcycling">
+                        <h3 data-de="Motorradfahren" data-en="Motorcycling">
                             Motorradfahren
                         </h3>
 
                         <p
-                            data-de="Technik erleben statt nur darüber lesen: Maschine, Straße, Wahrnehmung und die Verantwortung, mit allem gleichzeitig vernünftig umzugehen."
-                            data-en="Experiencing engineering rather than merely reading about it: machine, road, perception and the responsibility of handling all three sensibly at once.">
-                            Technik erleben statt nur darüber lesen: Maschine,
-                            Straße, Wahrnehmung und die Verantwortung, mit allem
-                            gleichzeitig vernünftig umzugehen.
+                            data-de="Maschine, Straße und Wahrnehmung zugleich im Blick behalten: Technik unmittelbar erleben und mit der nötigen Umsicht beherrschen."
+                            data-en="Keeping machine, road and perception in view at the same time: experiencing engineering directly and handling it with due care.">
+                            Maschine, Straße und Wahrnehmung zugleich im Blick
+                            behalten: Technik unmittelbar erleben und mit der
+                            nötigen Umsicht beherrschen.
                         </p>
+
+                        <div class="portfolio-tags">
+                            <span>Awareness</span>
+                            <span>Responsibility</span>
+                            <span>Engineering</span>
+                        </div>
 
                     </div>
 
@@ -669,13 +934,9 @@
         </section>
 
 
-        <!-- Footer -->
-
         <footer>
 
-            <span>
-                © 2026 Julian Kampitsch
-            </span>
+            <span>© 2026 Julian Kampitsch</span>
 
             <span
                 data-de="Technik · Kommunikation · Neugier"
@@ -688,41 +949,30 @@
     </main>
 
 
-    <!-- Sprachumschaltung -->
-
     <script>
 
-        const buttons =
-            document.querySelectorAll(".lang-btn");
-
-        const translatedElements =
-            document.querySelectorAll("[data-de][data-en]");
-
+        const buttons = document.querySelectorAll(".lang-btn");
+        const translatedElements = document.querySelectorAll("[data-de][data-en]");
+        const translatedTitles = document.querySelectorAll("[data-de-title][data-en-title]");
 
         function setLanguage(language) {
-
             document.documentElement.lang = language;
 
             translatedElements.forEach(element => {
                 element.textContent = element.dataset[language];
             });
 
-            buttons.forEach(button => {
-                button.classList.toggle(
-                    "active",
-                    button.dataset.lang === language
-                );
+            translatedTitles.forEach(element => {
+                element.title = element.dataset[`${language}Title`];
             });
 
+            buttons.forEach(button => {
+                button.classList.toggle("active", button.dataset.lang === language);
+            });
         }
 
-
         buttons.forEach(button => {
-
-            button.addEventListener("click", () => {
-                setLanguage(button.dataset.lang);
-            });
-
+            button.addEventListener("click", () => setLanguage(button.dataset.lang));
         });
 
     </script>
