@@ -290,3 +290,348 @@ footer {
         flex-direction: column;
     }
 }
+
+
+/* ==================================================
+   Portfolio
+================================================== */
+
+
+/* Header navigation */
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+
+.main-nav a {
+    color: var(--muted);
+
+    font-size: 0.82rem;
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: var(--text);
+}
+
+
+.main-nav a.active {
+    font-weight: 650;
+}
+
+
+/* Portfolio hero */
+
+.portfolio-hero {
+    padding: 100px 0 95px;
+}
+
+
+.portfolio-hero h1 {
+    margin-bottom: 34px;
+}
+
+
+.portfolio-intro {
+    max-width: 680px;
+
+    margin: 0;
+
+    color: #3d3d3d;
+
+    font-size: clamp(1.1rem, 2.4vw, 1.35rem);
+    line-height: 1.7;
+}
+
+
+/* Portfolio sections */
+
+.portfolio-section {
+    padding: 75px 0 90px;
+
+    border-top: 1px solid var(--border);
+}
+
+
+.section-heading {
+    display: grid;
+
+    grid-template-columns: 60px minmax(0, 1fr);
+
+    gap: 28px;
+
+    margin-bottom: 46px;
+}
+
+
+.section-number {
+    margin: 5px 0 0;
+
+    color: var(--accent);
+
+    font-size: 0.8rem;
+    font-weight: 650;
+
+    letter-spacing: 0.08em;
+}
+
+
+.section-heading h2 {
+    max-width: none;
+
+    margin: 0 0 8px;
+
+    color: var(--text);
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 500;
+
+    letter-spacing: -0.025em;
+}
+
+
+.section-heading > div > p {
+    max-width: 650px;
+
+    margin: 0;
+
+    color: var(--muted);
+
+    font-size: 0.98rem;
+}
+
+
+/* Grid */
+
+.portfolio-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 28px;
+}
+
+
+/* Cards */
+
+.portfolio-card {
+    overflow: hidden;
+
+    border: 1px solid var(--border);
+    border-radius: 5px;
+
+    background: var(--surface);
+}
+
+
+.portfolio-card-large {
+    grid-column: span 2;
+}
+
+
+.portfolio-card figure {
+    aspect-ratio: 16 / 10;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    background: #ececea;
+}
+
+
+.portfolio-card-large figure {
+    aspect-ratio: 16 / 7;
+}
+
+
+.portfolio-card img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.35s ease;
+}
+
+
+.portfolio-card:hover img {
+    transform: scale(1.015);
+}
+
+
+.portfolio-card-content {
+    padding: 26px 28px 30px;
+}
+
+
+.portfolio-category {
+    margin: 0 0 9px;
+
+    color: var(--accent);
+
+    font-size: 0.72rem;
+    font-weight: 700;
+
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+}
+
+
+.portfolio-card h3 {
+    margin: 0 0 14px;
+
+    font-size: 1.25rem;
+    font-weight: 650;
+}
+
+
+.portfolio-card-content > p:not(.portfolio-category) {
+    margin: 0;
+
+    color: #444;
+
+    font-size: 0.94rem;
+    line-height: 1.7;
+}
+
+
+/* Tags */
+
+.portfolio-tags {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    margin-top: 22px;
+}
+
+
+.portfolio-tags span {
+    padding: 5px 9px;
+
+    border: 1px solid var(--border);
+    border-radius: 100px;
+
+    color: var(--muted);
+
+    font-size: 0.7rem;
+}
+
+
+/* Tablet */
+
+@media (max-width: 800px) {
+
+    .header-right {
+        gap: 20px;
+    }
+
+
+    .main-nav {
+        gap: 14px;
+    }
+
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .portfolio-card-large {
+        grid-column: auto;
+    }
+
+
+    .portfolio-card-large figure {
+        aspect-ratio: 16 / 10;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+    .header {
+        align-items: flex-start;
+    }
+
+
+    .header-right {
+        flex-direction: column;
+        align-items: flex-end;
+
+        gap: 8px;
+    }
+
+
+    .main-nav {
+        display: none;
+    }
+
+
+    .portfolio-hero {
+        padding: 70px 0 65px;
+    }
+
+
+    .portfolio-section {
+        padding: 55px 0 65px;
+    }
+
+
+    .section-heading {
+        grid-template-columns: 1fr;
+
+        gap: 8px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .section-number {
+        margin: 0;
+    }
+
+
+    .portfolio-grid {
+        gap: 20px;
+    }
+
+
+    .portfolio-card-content {
+        padding: 22px;
+    }
+
+
+    .portfolio-card figure,
+    .portfolio-card-large figure {
+        aspect-ratio: 4 / 3;
+    }
+
+}
